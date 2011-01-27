@@ -316,7 +316,7 @@
 
 		function defaultTransition(){
 			if(transition === undefined){
-				transition = $.mobile.defaultTransition;
+				transition = (nextPageRole && nextPageRole === 'dialog') ? $.mobile.defaultDialogTransition : $.mobile.defaultTransition;
 			}
 		}
 

@@ -38,8 +38,11 @@
 			//automatically handle form submissions through Ajax, when possible
 			ajaxFormsEnabled: true,
 
-		//set default transition - 'none' for no transitions
+		// set default page transition - 'none' for no transitions
 		defaultTransition: 'slide',
+		
+		// set default dialog transition - 'none' for no transition
+		defaultDialogTransition: 'pop',
 
 		//show loading message during Ajax requests
 		//if false, message will not appear, but loading classes will still be toggled on html el
