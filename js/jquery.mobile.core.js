@@ -29,14 +29,14 @@
 
 		//automatically handle clicks and form submissions through Ajax, when same-domain
 		ajaxEnabled: true,
-		
-			// TODO: deprecated - remove at 1.0
-			//automatically handle link clicks through Ajax, when possible
-			ajaxLinksEnabled: true,
 
-			// TODO: deprecated - remove at 1.0
-			//automatically handle form submissions through Ajax, when possible
-			ajaxFormsEnabled: true,
+		// TODO: deprecated - remove at 1.0
+		//automatically handle link clicks through Ajax, when possible
+		ajaxLinksEnabled: true,
+
+		// TODO: deprecated - remove at 1.0
+		//automatically handle form submissions through Ajax, when possible
+		ajaxFormsEnabled: true,
 
 		// set default page transition - 'none' for no transitions
 		defaultTransition: 'slide',
@@ -50,6 +50,8 @@
 
 		//configure meta viewport tag's content attr:
 		metaViewportContent: "width=device-width, minimum-scale=1, maximum-scale=1",
+
+		nativeSelectMenus: false,
 
 		//support conditions that must be met in order to proceed
 		gradeA: function(){
